@@ -11,7 +11,7 @@ import Foundation;
 /// ------------------------
 /// Function Implementations
 
-func solveMeFirst(alice: [Int], bob: [Int]) -> [Int] {
+func compareTriplets(alice: [Int], bob: [Int]) -> [Int] {
 
 	var aliceCount = 0
 	var bobCount   = 0
@@ -37,7 +37,7 @@ while(inputCount > 0) {
 	let alice : [Int] = readLine()!.split(separator: " ").map{ Int(String($0))! }
 	let bob   : [Int] = readLine()!.split(separator: " ").map{ Int(String($0))! }
 
-	print(solveMeFirst(alice: alice, bob: bob))
+	print(compareTriplets(alice: alice, bob: bob))
 
 	inputCount -= 1
 
